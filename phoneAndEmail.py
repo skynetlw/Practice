@@ -4,7 +4,7 @@
 
 import pyperclip, re
 
-# 创建电话好吗regex
+# 创建电话号码regex
 phoneRegex = re.compile(r'''(
     (\d{3}|\(\d{3}\))?       # area code
     (\s|-|\.)?      #separator
